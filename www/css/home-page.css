@@ -1,0 +1,452 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*NAV BARRE*/
+nav {
+    background-color: white;
+    height: 75px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+
+hr {
+    width: 100px;
+}
+
+nav img {
+    height: 100%;
+}
+
+/* REDIRECT */
+#redirect {
+    margin: auto;
+    width: 300px;
+    max-height: 200px;
+    background-color: #f3f0f0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px #888888;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#redirect button {
+    margin-top: 15%;
+}
+
+/*HEADER*/
+header {
+    background-image: url("headerimg.png");
+    background-repeat: no-repeat;
+    /*background-position: right;*/
+    background-size: cover;
+    height: 650px;
+    color: white;
+    font-weight: bold;
+}
+
+header div {
+    color: white;
+    padding-top: 100px;
+    padding-left: 15%;
+    /*background-color: rgba(255, 255, 255, 0.4);
+    width: 700px;*/
+}
+
+#txt-l1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.text-l2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#txt-l3 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#free {
+    font-size: 40px;
+    font-weight: bold;
+    color: #9FE0D0;
+}
+
+header button {
+    box-shadow: 0px 4px 8px #333030;
+}
+
+/*PAGE 1*/
+#first-page {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#first-page h1{
+    text-align: center;
+    font-size: 60px;
+    width: 80%;
+    margin: auto;
+}
+
+/*STAGE*/
+
+#stage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding-top: 75px;
+    margin: auto;
+    width: 85%;
+}
+
+.sub-step {
+    width: 30%;
+}
+
+.sub-step div:first-child{
+
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    /*height: 75px;*/
+}
+
+.sub-step h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.number {
+    color: #406732;
+    font-size: 80px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.button-flex {
+    display: flex;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #53BF2D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px #888888;
+    margin-bottom: 100px;
+    color: white;
+    margin-top: 25px;
+}
+
+a {
+    margin: auto;
+}
+
+button:hover {
+    background-color: #58e327;
+    cursor: pointer;
+}
+
+/* BANDEAU */
+#bandeau {
+    background-color: #5E8763;
+    height: 315px;
+    width: 100%;
+    color: white;
+}
+
+#bandeau h3 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#bandeau h3, #bandeau p {
+    text-align: center;
+}
+
+#bandeau hr {
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#container-card {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    width: 200px;
+    padding-top: 50px;
+}
+.card .title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card img {
+    width: 15%;
+    margin-right: 10px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+/* PAGE 3*/
+
+#p3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#p3 h3 {
+    font-size: 50px;
+}
+
+#p3 p, #p3 h3 {
+    color: black;
+}
+
+#p3 #subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#p3 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 179px;
+    color: black;
+}
+
+.container-card-click {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.card-click {
+    border: 5px solid #5E8763;
+    border-radius: 10px;
+    min-width: 237px;
+    width: 85%;
+    max-width: 275px;
+    height: 300px;
+}
+
+.card-click:hover {
+    box-shadow: 0px 4px 8px #888888;
+    cursor: pointer;
+}
+
+.title-card {
+    font-size: 20px;
+}
+
+.space, .other-space {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.other-space {
+    padding-bottom: 33px;
+}
+
+.card-click p:last-child  {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1755px) {
+    .sub-step h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1300px){
+
+    .number {
+        font-size: 70px;
+    }
+
+    #first-page h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1246px) {
+
+    .number {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1210px) {
+    #stage {
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        row-gap: 50px;
+        width: 70%;
+    }
+
+    .sub-step {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1050px) {
+    #first-page h1{
+        font-size: 40px;
+    }
+
+    #bandeau h3, #p3 h3 {
+        font-size: 35px;
+    }
+
+    button {
+        margin-top: 25px;
+        margin-bottom: 75px;
+    }
+
+    #container-card {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    header div {
+        padding-right: 15%;
+    }
+    .container-card-click {
+        flex-wrap: wrap;
+    }
+
+    .card img {
+        width: 20%;
+    }
+
+    #bandeau hr {
+        width: 90%;
+    }
+}
+
+@media  (max-width: 850px) {
+
+    #container-card {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .card {
+        margin: auto;
+        padding: 0px;
+    }
+
+    .card:first-child {
+        padding-top: 25px;
+    }
+
+    #bandeau {
+        height: 550px;
+    }
+
+    .card img {
+        width: 15%;
+    }
+    #bandeau hr {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    #visibility {
+        visibility: hidden;
+        height: 0;
+        padding: 0;
+        font-size: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    #first-page h1 {
+        font-size: 35px;
+        width: 90%;
+    }
+
+    #txt-l1 {
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .text-l2 {
+        font-size: 25px;
+    }
+
+    #txt-l3, #free {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    footer {
+        font-size: 10px;
+    }
+
+    #p3 h3 {
+        font-size: 35px;
+    }
+
+    #p3 #subtitle, #p3 h3 {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+}
