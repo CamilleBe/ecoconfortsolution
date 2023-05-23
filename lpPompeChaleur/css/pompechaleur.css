@@ -380,7 +380,20 @@ header span {
   }
   
   /* RESPONSIVE */
-  
+
+@media (max-width: 1422px) {
+  header div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1122px) {
+  #logo-id {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
   @media (max-width: 1000px) {
   
     /*HEADER*/
@@ -447,17 +460,36 @@ header span {
     .logo img:first-child {
       height: 60px;
     }
+
+
+    #form div {
+      width: 80%;
+    }
   }
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  header div {
+    width: 95%;
+  }
+
+  #logo-id {
+    margin-bottom: 15px;
+  }
+}
   
   @media (max-width: 649px) {
   
-    #title {
+    /*#title {
       font-size: 12px;
       width: 100%;
-    }
+    }*/
   
    .contenu {
-     margin-top: 530px;
+     margin-top: 50px;
    }
     #txt-form-header {
       flex-wrap: wrap-reverse;
@@ -475,7 +507,7 @@ header span {
       width: 80%;
     }
   
-    #form p {
+    /*#form p {
       color: white;
       text-align: center;
       margin: auto;
@@ -494,14 +526,10 @@ header span {
         color: black;
         width:80%;
         text-align: center;
-    }
+    }*/
   }
   
   @media (max-width: 430px) {
-    .contenu {
-      margin-top: 730px;
-    }
-  
     .f2pl {
       flex-wrap: wrap;
     }
@@ -517,7 +545,43 @@ header span {
     #error1 {
         margin-left: 0px;
     }
+
+    #txt-form-header p:nth-child(2), #txt-form-header p:nth-child(3) {
+      margin-left: 0;
+    }
+
+    #txt-form-header {
+      width: 100%;
+    }
+
+    #txt-form-header p:first-child {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    #txt-form-header p:nth-child(2) {
+      font-size: 18px;
+    }
+    #txt-form-header p:nth-child(3) {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+    #logo-id {
+      margin-top: 25px;
+    }
+    #form {
+      width: 100%;
+    }
+
+    .contenu h2, .contenu h3, #pac {
+      font-size: 20px;
+    }
+
+    .bandeau {
+      font-size: 22px;
+    }
   }
+
   
   @media (max-width: 391px) {
     .f2pl {
@@ -531,9 +595,5 @@ header span {
   
     .fl {
       margin-bottom: 0px;
-    }
-  
-    .contenu {
-      margin-top: 800px;
     }
   }  
