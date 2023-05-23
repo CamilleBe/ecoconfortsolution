@@ -31,8 +31,8 @@
 
   
   /*HEADER*/
-  header {
-    background-image: url("/lpPompeChaleur/img/header-pac.png");
+  /*header {
+    background-image: url("lpPompeChaleur/img/headerimg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,25 +55,84 @@
     margin: auto;
     margin-top: 40px;
     /*background-color: red;*/
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     justify-content: flex-end;
-  }
+  }*/
   
-  #container-text-header{
+  /*#container-text-header{
     width: 35%;
     font-size: 20px;
     padding-right: 30px;
     padding-top: 30px;
-  }
-  
-  header span {
-    color: #1DE8A9;
-  }
-  
+  }*/
+
+/*NEW HEADER*/
+header {
+  background-image: url("../img/headerimg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  color: white;
+}
+
+header div {
+  width: 40%;
+}
+
+header span {
+  color: #1DE8A9;
+}
+
+#txt-form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#txt-form-header p:first-child {
+  font-size: 30px;
+}
+
+#txt-form-header p:nth-child(2) {
+  font-size: 24px;
+}
+
+#txt-form-header p:nth-child(2), #txt-form-header p:nth-child(3) {
+  margin-left: 25px;
+}
+
+#txt-form-header p:nth-child(3) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#form div{
+  width: 60%;
+  margin: auto;
+}
+
+#logo-id {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(51, 48, 48, 0.32);
+}
+
+#logo-id img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+
   /*FORMULAIRE*/
   
-  #form {
+  /*#form {
     background-color: #5E8763;
     opacity: 0.8;
     width: 50%;
@@ -172,13 +231,13 @@
   .exeption input{
     padding: 0px;
     width: 4%;
-  }
+  }*/
   
   /*FIRST CONTAINER*/
   .contenu {
     width: 70%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .contenu span {
@@ -297,7 +356,7 @@
   }
   
   /* BANDEAU DISPO GOUV */
-  #logo {
+  .logo {
     width: 80%;
     margin: auto;
     display: flex;
@@ -306,11 +365,11 @@
     margin-bottom: 40px;
   }
   
-  #logo img {
+  .logo img {
     height: 80px;
   }
   
-  #logo img:first-child {
+  .logo img:first-child {
     height: 60px;
   }
   
@@ -355,7 +414,7 @@
       width: 100%;
     }
   
-    #logo {
+    .logo {
       width: 80%;
       justify-content: center;
       flex-wrap: wrap;
@@ -379,13 +438,13 @@
   
     /*BANDEAU*/
   
-    #logo {
+    .logo {
       justify-content: center;
       flex-wrap: wrap;
       gap: 20px;
     }
   
-    #logo img:first-child {
+    .logo img:first-child {
       height: 60px;
     }
   }
